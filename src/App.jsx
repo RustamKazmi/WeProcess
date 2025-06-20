@@ -11,9 +11,10 @@ import PaymentMethod from './components/PaymentMethod'
 import Confirmation from './components/Confirmation'
 import UpdateProfile from './components/UpdateProfile'
 import UpdatePassword from './components/UpdatePassword';
-import ChatUI from './components/ChatUi';
+import ChatUI from './components/ChatUI';
 import NotificationsPage from './components/NotificationsPage';
 import SearchPage from './components/SearchPage';
+import SingleInstruction from './components/SingleInstruction';
 
 function App() {
 
@@ -37,6 +38,7 @@ function App() {
       <Route path='/chats' element={<ChatUI/>} />
       <Route path='/notifications' element={<NotificationsPage/>} />
       <Route path='/search/Results' element={<SearchPage/>} />
+      <Route path='/single/instruction/:id/:serveName' element={<SingleInstruction/>}/>
       
 
 </Routes>

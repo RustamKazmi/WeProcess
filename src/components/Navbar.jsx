@@ -11,7 +11,7 @@ import {
   faUserAlt,
   faLock,
 } from "@fortawesome/free-solid-svg-icons";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useMatch } from "react-router-dom";
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -86,7 +86,7 @@ export default function Navbar() {
                     <h3 className="text-black ">Results</h3>
                       <div className="separator"></div>
                       <div className="flex items-star gap-2 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src={`${import.meta.env.BASE_URL}images/avatar.png`} alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                           <div className="flex justify-between gap-2">
                             <p className="font-semibold">Lorem ipsum dolor </p>
@@ -98,7 +98,7 @@ export default function Navbar() {
 
                       <div className="separator"></div>
                        <div className="flex items-star gap-2 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src={`${import.meta.env.BASE_URL}images/avatar.png`} alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                           <div className="flex justify-between gap-2">
                             <p className="font-semibold">Lorem ipsum dolor </p>
@@ -110,7 +110,7 @@ export default function Navbar() {
 
                       <div className="separator"></div>
                       <div className="flex items-star gap-2 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src={`${import.meta.env.BASE_URL}images/avatar.png`} alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                           <div className="flex justify-between gap-2">
                             <p className="font-semibold">Lorem ipsum dolor </p>
@@ -122,7 +122,7 @@ export default function Navbar() {
 
                       <div className="separator"></div>
                       <div className="flex items-star gap-2 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src={`${import.meta.env.BASE_URL}images/avatar.png`} alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                           <div className="flex justify-between gap-2">
                             <p className="font-semibold">Lorem ipsum dolor </p>
@@ -135,7 +135,7 @@ export default function Navbar() {
                       <div className="separator"></div>
 
                        <div className="flex items-star gap-2 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src={`${import.meta.env.BASE_URL}images/avatar.png`} alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                           <div className="flex justify-between gap-2">
                             <p className="font-semibold">Lorem ipsum dolor </p>
@@ -169,7 +169,7 @@ export default function Navbar() {
 
                       <div className="separator"></div>
                       <div className="flex items-star gap-2 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src={`${import.meta.env.BASE_URL}images/avatar.png`} alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                           <p className="font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                           <p>55 minutes ago.</p>
@@ -178,7 +178,7 @@ export default function Navbar() {
 
                       <div className="separator"></div>
                       <div className="flex items-star gap-2 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src={`${import.meta.env.BASE_URL}images/avatar.png`} alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                           <p className="font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                           <p>55 minutes ago.</p>
@@ -187,7 +187,7 @@ export default function Navbar() {
 
                       <div className="separator"></div>
                       <div className="flex items-star gap-2 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src={`${import.meta.env.BASE_URL}images/avatar.png`} alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                           <p className="font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                           <p>55 minutes ago.</p>
@@ -196,7 +196,7 @@ export default function Navbar() {
 
                       <div className="separator"></div>
                       <div className="flex items-star gap-2 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src={`${import.meta.env.BASE_URL}images/avatar.png`} alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                           <p className="font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                           <p>55 minutes ago.</p>
@@ -206,7 +206,7 @@ export default function Navbar() {
                       <div className="separator"></div>
 
                       <div className="flex  items-star gap-2 py-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src={`${import.meta.env.BASE_URL}images/avatar.png`} alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                           <p className="font-semibold">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
                           <p>55 minutes ago.</p>
@@ -225,7 +225,7 @@ export default function Navbar() {
 
             <div>
               <img
-                src={`${import.meta.env.BASE_URL}images/avatar.png`}
+                src='./images/avatar.png'
                 alt="Avatar"
                 className="w-8 h-8 rounded-full ring-2 ring-white"
                 onClick={() => setProfileDropdown(!profileDropdown)}
@@ -274,6 +274,14 @@ export default function Navbar() {
 
           </div>
           }
+
+            {useMatch('/single/instruction/:id/:serveName') && <div className="mt-20">
+            <h2 className="font-semibold w-full text-start text-2xl">#8723 | Serve to Alex</h2>
+
+
+          </div>
+          }
+          
           {
             path == '/instructions' && (
               <div className="w-1/2 mt-20">
@@ -392,7 +400,7 @@ export default function Navbar() {
             <IconCircle icon={faEnvelope} />
           </div>
           <img
-            src={`${import.meta.env.BASE_URL}images/avatar.png`}
+            src='./images/avatar.png'
             alt="Avatar"
             className="w-8 h-8 rounded-full ring-2 ring-white"
           />

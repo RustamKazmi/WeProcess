@@ -16,41 +16,41 @@ export default function NotificationsPage() {
                     <input
                         type="text"
                         placeholder="Search here..."
-                        className="py-1 border-none focus:outline-none"
+                        className="py-1 border-none focus:outline-none w-full"
                     />
                 </div>
                 <div className="notifications-container flex flex-col gap-1">
                     <h2 className="text-start px-2 font-semibold">All notifications </h2>
                     <div className="flex items-start gap-2 background border-gray-300 border rounded-xl p-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='/images/avatar.png' alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                             <p className="font-semibold w-xs mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe consectetur debitis cum dolorem,  </p>
                             <p>55 minutes ago.</p>
                         </div>
                     </div>
                     <div className="flex items-start gap-2 rounded-xl p-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='/images/avatar.png' alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                             <p className="font-semibold w-xs mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe consectetur debitis cum dolorem,  </p>
                             <p>55 minutes ago.</p>
                         </div>
                     </div>
                     <div className="flex items-start gap-2 rounded-xl p-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='/images/avatar.png' alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                             <p className="font-semibold w-xs mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe consectetur debitis cum dolorem,  </p>
                             <p>55 minutes ago.</p>
                         </div>
                     </div>
                     <div className="flex items-start gap-2 rounded-xl p-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='/images/avatar.png' alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                             <p className="font-semibold w-xs mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe consectetur debitis cum dolorem,  </p>
                             <p>55 minutes ago.</p>
                         </div>
                     </div>
                     <div className="flex items-start gap-2 rounded-xl p-2 text-sm text-gray-700" role="menuitem" tabIndex="-1" id="menu-item-0">
-                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='/images/avatar.png' alt="" /></div>
+                        <div className="w-8 h-8 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                         <div className="text-xs text-start w-3/4">
                             <p className="font-semibold w-xs mb-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe consectetur debitis cum dolorem,  </p>
                             <p>55 minutes ago.</p>

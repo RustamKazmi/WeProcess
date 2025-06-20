@@ -27,7 +27,7 @@ export default function ChatUI() {
             <input
               type="text"
               placeholder="Search here..."
-              className="py-1 border-none focus:outline-none"
+              className="py-1 border-none focus:outline-none w-full"
             />
           </div>
           <div className="space-y-3 overflow-y-auto">
@@ -51,15 +51,17 @@ export default function ChatUI() {
         </div>
 
         {/* Chat Area */}
-        <div className='right-bar h-full bg-white shadow-xl rounded-xl w-[77%] flex flex-col gap-4 px-4 pt-4 '>
+        <div className='right-bar h-full bg-white shadow-xl rounded-xl w-[77%] flex flex-col gap-2 px-4 pt-4'>
           {/* Header */}
-          <div className="flex items-center gap-3 px-6 py-4 border-b">
+          <div className="flex items-center gap-3 px-6 py-2">
             <div className="w-10 h-10 rounded-full bg-primary text-white flex items-center justify-center font-bold">A</div>
             <h3 className="text-lg font-semibold">Ava Williams</h3>
           </div>
 
+            <div className="separator"></div>
+
           {/* Messages */}
-          <div className="flex-1 overflow-y-auto p-6 space-y-6">
+          <div className="flex-1 overflow-y-auto p-6 space-y-6 relative">
             {/* Date separator */}
             <div className="text-center text-xs text-gray-500">Monday</div>
 
@@ -121,15 +123,15 @@ export default function ChatUI() {
                 </div>
               </div>
             </div>
-
-          </div>
-
-          {/* Typing... */}
-          <div className="flex items-center gap-2">
+               {/* Typing... */}
+          <div className="flex items-center gap-2  w-fit fixed bottom-28">
             <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-xs">A</div>
             <div className="text-gray-400 italic">Typing...</div>
           </div>
+          </div>
+            
 
+       
           {/* Input Box */}
           <div className="border-t p-4 flex items-center gap-2 bg-white">
             <input
