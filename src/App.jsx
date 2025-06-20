@@ -15,6 +15,8 @@ import ChatUI from './components/ChatUI';
 import NotificationsPage from './components/NotificationsPage';
 import SearchPage from './components/SearchPage';
 import SingleInstruction from './components/SingleInstruction';
+import { Marker } from 'react-leaflet';
+
 
 function App() {
 
