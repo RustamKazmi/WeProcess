@@ -124,7 +124,7 @@ export default function ChatUI() {
               </div>
             </div>
                {/* Typing... */}
-          <div className="flex items-center gap-2  w-fit fixed bottom-28">
+          <div className="flex items-center gap-2  w-fit ">
             <div className="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-xs">A</div>
             <div className="text-gray-400 italic">Typing...</div>
           </div>
