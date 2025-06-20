@@ -205,7 +205,7 @@ export default function SingleInstruction() {
                                         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                                         attribution="&copy; OpenStreetMap contributors"
                                     />
-                                    <Marker position={[40.7128, -74.0060]}>
+                                    <Marker icon='./node_modules/leaflet/dist/images/marker-icon.png' position={[40.7128, -74.0060]}>
                                         <Popup>Job Location</Popup>
                                     </Marker>
                                 </MapContainer>
