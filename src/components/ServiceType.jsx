@@ -9,25 +9,25 @@ export default function ServiceType() {
     const ServiceTypeArr = [
         {
             type : 'Standard',
-            img: '/images/rider.png',
+            img: 'images/rider.png',
             description: ['Over 10 days period','delivery within 3 attempts','Documents deliver at doorsteps'],
             price: "150"
         },  
          {
             type : 'Standard',
-            img: '/images/rider.png',
+            img: 'images/rider.png',
             description: ['Over 10 days period','delivery within 3 attempts','Documents deliver at doorsteps'],
             price: "150"
         }, 
           {
             type : 'Standard',
-            img: '/images/rider.png',
+            img: 'images/rider.png',
             description: ['Over 10 days period','delivery within 3 attempts','Documents deliver at doorsteps'],
             price: "150"
         }, 
           {
             type : 'Standard',
-            img: '/images/rider.png',
+            img: 'images/rider.png',
             description: ['Over 10 days period','delivery within 3 attempts','Documents deliver at doorsteps'],
             price: "150"
         },
