@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+body{
+    background: #faf7f7;
+}
+a{
+    cursor: pointer;
+}
+.bg-primary{
+ background-color: #043F35;
+}
+.bg-secondary{
+    background-color: #AE8119;
+}
+.background{
+    background-color: #F5F5F5;
+}
+.text-primary{
+    color: #043F35;
+}
+.border-primary{
+    border: 2px solid #043F35;
+}
