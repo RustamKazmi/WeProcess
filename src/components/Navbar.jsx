@@ -225,7 +225,7 @@ export default function Navbar() {
 
             <div>
               <img
-                src="/images/avatar.png"
+                src={`${import.meta.env.BASE_URL}images/avatar.png`}
                 alt="Avatar"
                 className="w-8 h-8 rounded-full ring-2 ring-white"
                 onClick={() => setProfileDropdown(!profileDropdown)}
@@ -392,7 +392,7 @@ export default function Navbar() {
             <IconCircle icon={faEnvelope} />
           </div>
           <img
-            src="/images/avatar.png"
+            src={`${import.meta.env.BASE_URL}images/avatar.png`}
             alt="Avatar"
             className="w-8 h-8 rounded-full ring-2 ring-white"
           />

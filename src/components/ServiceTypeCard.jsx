@@ -6,7 +6,7 @@ export default function ServiceTypeCard({service}){
     return (
       <div className="flex flex-col gap-5 justify-center background min-w-[24%] py-5 shadow-lg rounded-lg border border-gray-400">
         <h2 className="text-primary text-sm font-medium">{service.type}</h2>
-        <img className="w-1/2 self-center h-20" src={`${import.meta.env.BASE_URL}${service.img}`} alt="rider" />
+        <img className="w-1/2 self-center h-20" src={`${service.img}`} alt="rider" />
         <div className="text-xs leading-5">
           <p>{service.description[0]}</p>
           <p>{service.description[1]}</p>
