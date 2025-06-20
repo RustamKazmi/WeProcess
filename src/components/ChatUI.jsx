@@ -34,7 +34,7 @@ export default function ChatUI() {
             {/* Chat List Items */}
             {ChatList.map((chat, idx) => (
               <div key={idx} className={`p-2 rounded-md flex gap-2 items-center justify-start cursor-pointer hover:bg-gray-100 text-start ${chat.unread ? "bg-gray-50" : ""}`}>
-                <div className="w-12 h-12 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='/images/avatar.png' alt="" /></div>
+                <div className="w-12 h-12 rounded-full text-white flex items-center justify-center text-lg"><img className="w-fit rounded-full bg-gray-300 border border-gray-600" src='./images/avatar.png' alt="" /></div>
                 <div className="flex flex-col gap-1 w-full">
                   <div className=" flex justify-between w-full">
                     <p className="font-medium">{chat.name}</p>

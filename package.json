@@ -1,11 +1,10 @@
 {
+  "homepage": "https://rustamkazmi.github.io/WeProcess/",
   "name": "weprocess",
-    "homepage": "https://RustamKazmi.github.io/WeProcess",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "homepage": "https://RustamKazmi.github.io/WeProcess",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
